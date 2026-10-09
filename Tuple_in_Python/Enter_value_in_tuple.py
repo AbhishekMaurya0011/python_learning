@@ -1,4 +1,4 @@
-# WAP to Enter the value in the tuple by the user.
+# WAP to Enter the value in tuple by the user.
 n=int(input("Enter How Many Elements are Adding in the Tuple: "))
 t=()
 for i in range(n):
