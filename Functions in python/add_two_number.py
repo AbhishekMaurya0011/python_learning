@@ -1,4 +1,4 @@
-# WAP to Add two number A and B by using the function and input is given by the user.
+# WAP to Add two number A and B by using the function and the input is given by the user.
 def add(a,b):
     return a+b
 a=float(input("Enter Number A:"))
