@@ -1,10 +1,10 @@
-# WAP to print the prime and non prime numbers separately and elements of list is given by the user. 
+# WAP to print the prime and non prime Elements separately and elements of list is given by the user. 
 l=[]
 n=int(input("Enter How Many Element are You Adding in List:"))
 
 for i in range(n):
-    l.append(int(input(f"Enter {i+1} Number Which You Want to Add in List: ")))
-print("The Prime Numbers are:")
+    l.append(int(input(f"Enter Element {i+1} Which You Want to Add in a List: ")))
+print("The Prime Elements are:")
 for num in l:
     if num>1:
         count=0
@@ -14,7 +14,7 @@ for num in l:
         if count==0:
             print(num)
 print("\n")
-print("The Non Prime Numbers are:")
+print("The Non Prime Elements are:")
 
 for num in l:
     if num<=1:
